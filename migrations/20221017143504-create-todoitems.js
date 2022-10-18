@@ -15,6 +15,16 @@ module.exports = {
       deadline: {
         type: Sequelize.STRING,
       },
+
+      todolistId: {
+        type: Sequelize.INTEGER,
+        references: {
+          key: "id",
+          model: "todolists",
+        },
+        onDelete: "SET NULL",
+        onUpdate: "CASCADE",
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

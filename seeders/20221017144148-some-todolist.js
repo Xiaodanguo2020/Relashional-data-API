@@ -8,15 +8,19 @@ module.exports = {
       [
         {
           name: "Shopping",
+          userId: 1,
         },
         {
           name: "Cleaning",
+          userId: 2,
         },
         {
           name: "Laundry",
+          userId: 2,
         },
         {
           name: "Feed the cat",
+          userId: 1,
         },
       ],
       {}
