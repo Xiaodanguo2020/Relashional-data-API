@@ -9,7 +9,7 @@ module.exports = {
         {
           task: "Shoping for Grossaries",
           deadline: "21th June",
-          todolistId: 2,
+          todolistId: 1,
           important: true,
         },
         {
@@ -21,23 +21,23 @@ module.exports = {
         {
           task: "Put cat food in the plate,add water too",
           deadline: "23th June",
-          todolistId: 1,
-          important: true,
-        },
-        {
-          task: "Put dog food in the plate,add water too",
-          deadline: "24th June",
           todolistId: 4,
           important: true,
         },
         {
-          task: "call doctor",
+          task: "Put catnip outside,add water too",
+          deadline: "24th June",
+          todolistId: 4,
+          important: false,
+        },
+        {
+          task: "take laundry out and hangthem",
           deadline: "25th June",
-          todolistId: 2,
+          todolistId: 3,
           important: true,
         },
         {
-          task: "Go to GP",
+          task: "order online the innisfree cosmetics",
           deadline: "26th June",
           todolistId: 1,
           important: false,
