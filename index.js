@@ -1,6 +1,7 @@
 const express = require("express");
 const userRoute = require("./routes/users");
 const todolistRoute = require("./routes/todolist");
+const todoItemRoute = require("./routes/todoitem");
 const app = express();
 
 const PORT = 4000;
@@ -8,6 +9,7 @@ const PORT = 4000;
 app.use(express.json());
 app.use(userRoute);
 app.use(todolistRoute);
+app.use(todoItemRoute);
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
 
